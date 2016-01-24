@@ -1,0 +1,6 @@
+test/
+.editorconfig
+.jshintrc
+.npmignore
+bower.json
+karma.conf.js

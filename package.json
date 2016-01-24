@@ -1,0 +1,42 @@
+{
+  "name": "angular-camelize-filter",
+  "version": "1.0.0",
+  "description": "AngularJS filter to convert strings to lower camel case replacing non-alphanumeric characters.",
+  "author": "Pablo Villoslada Puigcerber <pablo85@gmail.com> (http://pablovilloslada.com/)",
+  "main": "index.js",
+  "scripts": {
+    "build": "uglifyjs camelize.js -m -o camelize.min.js",
+    "lint": "jshint camelize.js test; true",
+    "test": "karma start",
+    "pretest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Puigcerber/angular-camelize-filter"
+  },
+  "bugs": {
+    "url": "https://github.com/Puigcerber/angular-camelize-filter/issues"
+  },
+  "keywords": [
+    "AngularJS",
+    "camelize",
+    "filter",
+    "CamelCase",
+    "lowerCamelCase"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "angular-mocks": "^1.4.9",
+    "jasmine-core": "^2.4.1",
+    "jshint": "^2.9.1",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.3",
+    "phantomjs": "^1.9.19",
+    "uglify-js": "^2.6.1"
+  },
+  "dependencies": {
+    "angular": "^1.4.9"
+  }
+}
