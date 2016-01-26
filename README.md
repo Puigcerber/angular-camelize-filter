@@ -44,11 +44,13 @@ var camelized = $filter('camelize')('angular-camelize-filter');
 console.log(camelized); // angularCamelizeFilter
 ```
 
-## Testing
+## Related
 
-To run the tests:
+* [capitalize](https://github.com/Puigcerber/angular-capitalize-filter): 
+AngularJS filter to capitalize sentences and specially team names.
+* [lowerize](https://github.com/Puigcerber/angular-lowerize-filter): 
+AngularJS filter to convert strings to lower case replacing non-alphanumeric characters.
 
-```bash
-$ npm install
-$ npm test
-```
+## License
+
+MIT © [Pablo Villoslada Puigcerber](http://pablovilloslada.com)

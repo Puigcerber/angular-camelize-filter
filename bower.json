@@ -1,6 +1,6 @@
 {
   "name": "angular-camelize-filter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AngularJS filter to convert strings to lower camel case replacing non-alphanumeric characters.",
   "main": "camelize.js",
   "authors": [
@@ -28,6 +28,6 @@
     "index.js"
   ],
   "dependencies": {
-    "angular": "~1.4.9"
+    "angular": "^1.4.9"
   }
 }
